@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profile Card</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="card">
+        <p data-testid="currentTimeUTC" id="time"></p>
+        <img class="picture" src="picture/myPic.jpg" data-testid ="profilePicture" alt="Profile picture">
+
+        <h2 class="name" data-testid="fullName">Wandile Ndlovu</h2>
+
+        <h2 class="jobTitle" data-testid="jobTitle">Front End Developer</h2>
+
+        <p class="bio" data-testid="shortBio">I'm an aspiring Front End Developer with a strong foundation in
+            HTML, CSS and Javascript. I enjoy creating interactive web experiences and constantly
+            learning to improve my skills. My goal is to grow through real-world projects, collaborate
+            with others, and keep improving because for me, coding isn't just about writing lines of 
+            code, it's about solving problems and making things work</p>
+ 
+        <p class="email" data-testid="emailAddress">Email: wandilen158@gmail.com</p>
+
+        <p class="location" data-testid="currentLocation"> Location: Johannesburg<br>South Africa</p>
+
+        <div class="socials" data-testid="socialLinks">
+            <a href="https://linkedin.com/in/wandile-ndlovu-a1a7492aa" data-testid="linkedinLink" target="_blank">LinkedIn</a>
+            <a href="https://github.com/Wandile-lab" data-testid="githubLink" target="_blank">GitHub</a>
+            <a href="https://x.com/PositivityVibe7" data-testid="twitterlink" target="_blank">Twitter</a>
+        </div>
+
+        
+    </div>
+    <script src="script.js"></script>
+
+</body>
+</html>

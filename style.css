@@ -1,0 +1,81 @@
+
+body {
+    margin: 0px;
+    background-color: #f1f1e6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    
+}
+
+.card {
+    width: 350px;
+    padding: 20px;
+    border: 6px solid orange;
+    background-color: black; 
+    color: orange;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.picture {
+    width: 70%;
+    height: auto;
+    border-radius: 50%;
+    padding: 10px;
+    border: 3px solid orange;
+    margin-top: 20px;
+    
+}
+
+
+.name, .jobTitle, .bio {
+    text-align: center;
+    color: orange;
+}
+
+.bio {
+    width: 100%;
+    margin-top: 10px;
+    margin-bottom: 0px;
+    color: orange;
+}
+
+
+.socials {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 20px;
+    width: 100%;
+    color: orange;
+
+}
+.socials a{
+    color: orange;
+}
+
+
+.email{
+    color: orange;
+    text-align: center;
+}
+
+.location{
+    color: orange;
+    text-align: center;
+}
+
+#time {
+    margin-top: 5px;
+    left: 340px;
+    color: solid orange;
+    font-size: 16px;
+
+}
+
+
+  
